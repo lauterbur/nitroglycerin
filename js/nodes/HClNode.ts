@@ -20,7 +20,8 @@ class HClNode extends HorizontalMoleculeNode {
   public constructor( providedOptions?: HClNodeOptions ) {
 
     const options = optionize<HClNodeOptions, SelfOptions, HorizontalMoleculeNodeOptions>()( {
-      direction: 'rightToLeft',
+//      direction: 'rightToLeft',
+      direction: 'leftToRight',
       overlapPercent: 0.5
     }, providedOptions );
 
